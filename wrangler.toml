@@ -1,6 +1,0 @@
-name = "neuralmarketing"
-compatibility_date = "2025-06-20"
-pages_build_output_dir = "./public"
-
-[site]
-bucket = "public"
