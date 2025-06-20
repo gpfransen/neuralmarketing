@@ -1,6 +1,3 @@
 name = "neuralmarketing"
-type = "webpack"  # Legacy fallback to satisfy Wrangler, even if unused
+main = "src/index.js"
 compatibility_date = "2025-06-20"
-
-[site]
-bucket = "./public"
