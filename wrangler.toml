@@ -1,4 +1,5 @@
 name = "neuralmarketing"
+type = "webpack"  # Legacy fallback to satisfy Wrangler, even if unused
 compatibility_date = "2025-06-20"
 
 [site]
