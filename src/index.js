@@ -1,7 +1,9 @@
+import { serveStatic } from "https://cdn.jsdelivr.net/npm/@worker-tools/serve-static/+esm";
+
+const serve = serveStatic({ root: "./public" });
+
 export default {
-  async fetch(request, env, ctx) {
-    return new Response("Hello from neuralmarketing!", {
-      headers: { "content-type": "text/html" },
-    });
+  fetch(request, env, ctx) {
+    return serve.fetch(request);
   }
-}
+};
