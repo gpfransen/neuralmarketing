@@ -1,0 +1,5 @@
+name = "neuralmarketing"
+compatibility_date = "2025-06-20"
+
+[site]
+bucket = "./public"
