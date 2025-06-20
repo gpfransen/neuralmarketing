@@ -1,4 +1,0 @@
-name = "neuralmarketing"
-main = "src/index.js"
-compatibility_date = "2025-06-20"
-modules = true
